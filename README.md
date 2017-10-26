@@ -46,6 +46,6 @@ Access the application via a browser at https://<public_dns>:8443. Username is m
     CPU: 94 EC2 Compute Units (32 virtual cores), plus 8 NVIDIA K80 (GK210) GPUs
     Storage:EBS Only
     Platform: 64-bit
-    Network Performance:10 Gigabit Ethernet
+    Network Performance: 10 Gigabit Ethernet
     API Name: p2.8xlarge
     
