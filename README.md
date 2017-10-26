@@ -10,13 +10,14 @@ Highlights:
 - Intuitive interaction - standard SQL or MapD's user-friendly dashboards
 - Fast, scalable visual analytics
 
-    Operating System: Linux/Unix, CentOS 7.2
-    Delivery Method: 64-bit Amazon Machine Image (AMI) 
-    AWS Services Required: Amazon EC2, Amazon EBS
+        Operating System: Linux/Unix, CentOS 7.2
+        Delivery Method: 64-bit Amazon Machine Image (AMI) 
+        AWS Services Required: Amazon EC2, Amazon EBS
 
 ## Usage Instruction:
 
 Access the application via a browser at https://<public_dns>:8443. Username is mapd, password will be the same as the instance-id. To connect to the operating system, use SSH and the username centos. The SQL CLI mapdql may be accessed by connecting to the instance via SSH and then running:
+
 /raidStorage/prod/mapd/bin/mapdql -u mapd -p {instance-id}
 
 ## EC2 Instance type options:
