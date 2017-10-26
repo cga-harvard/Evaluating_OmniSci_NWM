@@ -19,7 +19,7 @@ Access the application via a browser at https://<public_dns>:8443. Username is m
 
 ## EC2 Instance type options:
 
-# p2.xlarge
+### p2.xlarge
 
     Memory: 61GiB
     CPU: 12 EC2 Compute Units (4 virtual cores), plus 1 NVIDIA K80 (GK210) GPU
@@ -28,7 +28,7 @@ Access the application via a browser at https://<public_dns>:8443. Username is m
     Network Performance: High
     API Name: p2.xlarge
     
-# p2.16xlarge
+### p2.16xlarge
 
     Memory: 732GiB
     CPU: 188 EC2 Compute Units (64 virtual cores), plus 16 NVIDIA K80 (GK210) GPUs
@@ -37,7 +37,7 @@ Access the application via a browser at https://<public_dns>:8443. Username is m
     Network Performance: 20 Gigabit Ethernet
     API Name: p2.16xlarge
     
-# p2.8xlarge
+### p2.8xlarge
 
     Memory: 488GiB
     CPU: 94 EC2 Compute Units (32 virtual cores), plus 8 NVIDIA K80 (GK210) GPUs
