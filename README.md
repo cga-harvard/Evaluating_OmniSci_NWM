@@ -4,13 +4,15 @@
 
 The MapD Core database and Immerse visual analytics platform allows you to query and visualize billions of rows in milliseconds using Amazon's GPU instances, delivering orders-of-magnitude speedups over CPU solutions.
 
+Highlights:
+
+- Millisecond query response times over billions of rows
+- Intuitive interaction - standard SQL or MapD's user-friendly dashboards
+- Fast, scalable visual analytics
+
     Operating System: Linux/Unix, CentOS 7.2
     Delivery Method: 64-bit Amazon Machine Image (AMI) 
     AWS Services Required: Amazon EC2, Amazon EBS
-
-## Highlights: - Millisecond query response times over billions of rows
-- Intuitive interaction - standard SQL or MapD's user-friendly dashboards
-- Fast, scalable visual analytics
 
 ## Usage Instruction:
 
