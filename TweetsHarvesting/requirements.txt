@@ -1,0 +1,7 @@
+kafka
+pyspark
+tweepy
+nltk
+twitter
+sklearn
+scipy
