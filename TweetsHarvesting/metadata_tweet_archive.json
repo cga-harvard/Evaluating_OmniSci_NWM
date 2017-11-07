@@ -1,0 +1,93 @@
+{
+  "authority": "anAuthority",
+  "identifier": "BOP",
+  "persistentUrl": "http://dx.doi.org/10.5072/FK2/9",
+  "protocol": "chadham-house-rule",
+  "datasetVersion": {
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Geo-tweet Archive: from Jan 1,2017 to present"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "CGA, Harvard (Harvard Center for Geographic Analysis)"
+                }
+                
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "CGA, Harvard (Harvard Center for Geographic Analysis)"
+                },
+		"datasetContactEmail": {
+                  "typeName": "datasetContactEmail",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "blewis@cga.harvard.edu"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This is an archive of streamed geo-tweets. Starting Jan 1, 2017. The schema for this archive is here."
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Social Sciences", "Arts and Humanities", "Business and Management", "Earth and Environmental Sciences", "Medicine, Health and Life Sciences"
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "CGA, Harvard"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2017-11-06"
+          }
+        ]
+      }
+    }
+  }
+}
