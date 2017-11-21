@@ -1,4 +1,3 @@
-#This code write the geotweets .tsv to Cloud Dataverse
 from datetime import datetime
 import json
 import time
@@ -12,7 +11,7 @@ import requests  # http://docs.python-requests.org/en/master/
 dataverse_server = 'https://dataverse.massopen.cloud' # no trailing slash
 api_key = '0ae70426-f205-4256-9763-f936b0fd43bf'
 #dataset_id = 1  # database id of the dataset
-persistentId = 'doi:10.5072/FK2/U2ZRSB' # doi or hdl of the dataset
+persistentId = 'doi:10.5072/FK2/Z6JMXS' # doi or hdl of the dataset
 
 #dataverse_id = "geo-tweets" #database id of the dataverse
 # Using a "jsonData" parameter, add description for dataset
@@ -60,10 +59,11 @@ for fname in os.listdir(dirname):
             result = r.json()
             
             #print(result['status'])
-            while(result['status'] != 'OK'):
-                r = requests.post(url_persistent_id, data=payload, files=files)
-                result = r.json()
-            os.remove(os.path.join(dirname,fname))
+            if(result['status'] != 'OK'):
+               # r = requests.post(url_persistent_id, data=payload, files=files)
+               # result = r.json()
+               print(result['status'])
+               #  os.remove(os.path.join(dirname,fname))
                 
 
 

@@ -1,7 +1,7 @@
-# This code harvest Geotweets and then saves as .tsv
+# This code harvest Geotweets then MessagePacks them and populate a Kafka Topic.
 # Author:tmostak
 # Modified by: Devika Kakkar
-# Modified on: October 16, 2017
+# Modified on: October 20, 2016
 
 import time
 from datetime import datetime
@@ -16,6 +16,7 @@ import csv
 from datetime import datetime
 import json
 import os
+import gc
 import requests  # http://docs.python-requests.org/en/master/
 #import datetime as dt
 #from kafka import KafkaProducer
@@ -172,7 +173,8 @@ class Harvester (threading.Thread):
                 time.sleep((2 * errorCount) ** 2 ) #exponentially back off
                 sys.exc_clear()
 
-            f.close() 
+            f.close()
+            gc.collect() 
 # Kafka Producer
 #time.sleep(10)
 
