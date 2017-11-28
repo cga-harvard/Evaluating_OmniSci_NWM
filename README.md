@@ -1,8 +1,8 @@
 # HPC_on_MOC
 
-## High Performance Computing on MOC 
+## High Performance Computing on the Massachusettes Open Cloud (MOC) 
 
-This repository contains information about geospatially-oriented high performance computing on Massachusetts Open Cloud (MOC).  This work is currently funded by MapD Technologies with support from the MOC. Technologies which will be used include:
+This repository contains information on a project to explore geospatially-oriented high performance computing in an Open Stack public cloud environment on Massachusetts Open Cloud (MOC).  This work is currently funded by MapD Technologies with support from the MOC. Technologies include:
 
 - MapD
 - GeoMesa
