@@ -84,5 +84,3 @@ geomesa export -u <username> -p <password> \
 
 Interpretation: Export catalog from an Accumulo instance to file with format csv. GeoMesa also allow export to shp, json, and gml file. 
 The shp format also requires the -o option to specify the name of an output file. 
-
-6. 
