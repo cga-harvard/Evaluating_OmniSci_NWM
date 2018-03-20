@@ -51,7 +51,7 @@ Access the application via a browser at https://<public_dns>:8443. Username is m
     
 ## Running the ETL scripts:
 
-# Required libraries
+### Required libraries
 
 The following libraries are required to run the ETL sscripts:
 - xarray
