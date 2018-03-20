@@ -49,6 +49,20 @@ Access the application via a browser at https://<public_dns>:8443. Username is m
     Network Performance: 10 Gigabit Ethernet
     API Name: p2.8xlarge
     
-## Running the data upload scripts:
-### Install dependencies
+## Running the ETL scripts:
+
+# Required libraries
+
+The following libraries are required to run the ETL sscripts:
+- xarray
+- pymapd
+- pyarrow==0.7.1
+- numpy==1.14.1
+- pandas==0.22.0
+- pyproj
+- mzgeohash
+
+The required libraries could be installed from requirements.txt using:
+
+        pip install -r requirements.txt
 
