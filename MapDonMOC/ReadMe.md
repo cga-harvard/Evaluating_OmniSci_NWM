@@ -49,3 +49,6 @@ Access the application via a browser at https://<public_dns>:8443. Username is m
     Network Performance: 10 Gigabit Ethernet
     API Name: p2.8xlarge
     
+## Running the data upload scripts:
+### Install dependencies
+
