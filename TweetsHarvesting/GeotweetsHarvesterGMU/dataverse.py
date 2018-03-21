@@ -11,7 +11,7 @@ import requests  # http://docs.python-requests.org/en/master/
 dataverse_server = 'https://dataverse.massopen.cloud' # no trailing slash
 api_key = '0ae70426-f205-4256-9763-f936b0fd43bf'
 #dataset_id = 1  # database id of the dataset
-persistentId = 'doi:10.5072/FK2/UXPC8I' # doi or hdl of the dataset
+persistentId = 'doi:10.5072/FK2/YTLCX7' # doi or hdl of the dataset
 
 #dataverse_id = "geo-tweets" #database id of the dataverse
 # Using a "jsonData" parameter, add description for dataset
@@ -29,7 +29,7 @@ month= date[5:7]
 day= date[8:10]
 hour=date[11:13]
 DHG = year + '_' + month + '_' + day + '_' + hour
-fnameold = "geo_tweets_hour_" + DHG + ".tsv"
+fnameold = "geo_tweets_hour_" + DHG + ".csv"
 
 # --------------------------------------------------
 # Using a "jsonData" parameter, add optional description + file tags
