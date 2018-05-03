@@ -1,0 +1,6 @@
+\memory_summary
+\clear_gpu 
+\clear_gpu
+\clear_cpu
+\clear_gpu
+\clear_cpu
